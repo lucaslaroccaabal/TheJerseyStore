@@ -1,0 +1,43 @@
+.header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  width: 100vw;
+  height: $headerHeight;
+  background-color: $base-color;
+  box-shadow: -3px -3px 10px 10px #c8c6c0;
+  padding: 0 20px;
+  .buttonMenu {
+    border: 0;
+    transition: all 0.2s;
+    transform: scale(0.9);
+    img {
+      height: 100%;
+      width: auto;
+    }
+    &:hover {
+      transform: scale(1);
+    }
+  }
+  a {
+    img {
+      height: 100%;
+    }
+  }
+  .buttonCart {
+    border: 0;
+    background-color: $base-color;
+    transition: all 0.2s;
+    img {
+      height: 50%;
+      width: auto;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

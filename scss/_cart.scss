@@ -1,0 +1,57 @@
+#cart {
+  position: fixed;
+  height: 100vh;
+  background-color: $base-color;
+  width: 300px;
+  right: 0;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  transition: all 1s;
+  ul {
+    width: 100%;
+    li {
+      display: flex;
+
+      img {
+        width: 40px;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+  .buyButton {
+    cursor: pointer;
+    background-color: $pink-color;
+    border: 0;
+    color: $base-color;
+    font-size: 2rem;
+    padding: 1% 1%;
+    box-shadow: 0px 0px 5px $pink-color;
+  }
+  #buttonCloseCart {
+    cursor: pointer;
+    background-color: $base-color;
+    border: 0;
+    color: $pink-color;
+    font-size: 5rem;
+    transform: rotate(45deg);
+    transition: all 1s;
+    &:hover {
+      transform: rotate(135deg);
+    }
+  }
+}
+.offCart {
+  transform: translateX(100%);
+}
+.onCart {
+  transform: translate(0);
+  box-shadow: 3px 3px 10px 10px #c8c6c0;
+}

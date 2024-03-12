@@ -1,0 +1,359 @@
+@font-face {
+  font-family: "Gobold";
+  src: url(../fonts/Gobold\ Regular.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-family: "Gobold";
+  letter-spacing: 1px;
+}
+
+body {
+  background-color: #faf3dd;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  width: 100vw;
+  height: 12vh;
+  background-color: #faf0dc;
+  box-shadow: -3px -3px 10px 10px #c8c6c0;
+  padding: 0 20px;
+}
+.header .buttonMenu {
+  border: 0;
+  transition: all 0.2s;
+  transform: scale(0.9);
+}
+.header .buttonMenu img {
+  height: 100%;
+  width: auto;
+}
+.header .buttonMenu:hover {
+  transform: scale(1);
+}
+.header a img {
+  height: 100%;
+}
+.header .buttonCart {
+  border: 0;
+  background-color: #faf0dc;
+  transition: all 0.2s;
+}
+.header .buttonCart img {
+  height: 50%;
+  width: auto;
+}
+.header .buttonCart:hover {
+  transform: scale(1.1);
+}
+
+.cards {
+  margin: 12vh 10vw;
+}
+.cards h2 {
+  font-size: 3rem;
+  color: #fd6bb7;
+}
+
+.cardsContainer {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 5rem;
+}
+.cardsContainer .card {
+  height: 300px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: #faf0dc;
+  overflow: hidden;
+}
+.cardsContainer .card a p {
+  font-size: 1.5rem;
+  overflow: hidden;
+  height: 2rem;
+}
+.cardsContainer .card a img {
+  width: 200px;
+  height: 210px;
+  object-fit: cover;
+  box-shadow: 0px 3px 5px gray;
+}
+.cardsContainer .card div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardsContainer .card div p {
+  font-weight: 600;
+  font-size: 1.7rem;
+  overflow: hidden;
+  height: fit-content;
+  color: #fd6bb7;
+}
+.cardsContainer .card div button {
+  border: 0;
+  background-color: #fd6bb7;
+  box-shadow: 0px 0px 15px #fd6bb7;
+  width: fit-content;
+  padding: 2px 5px;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #faf0dc;
+  z-index: 3;
+  transition: all 1s;
+}
+.nav img {
+  width: 90px;
+  height: 90px;
+}
+.nav ul {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.nav ul li a {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all 0.65s;
+  opacity: 0.8;
+}
+.nav ul li a:hover {
+  opacity: 1;
+}
+.nav ul li:nth-child(1) a {
+  color: #fd6bb7;
+}
+.nav ul li:last-child button {
+  cursor: pointer;
+  background-color: #faf0dc;
+  border: 0;
+  color: #fd6bb7;
+  font-size: 5rem;
+  transform: rotate(45deg);
+  transition: all 1s;
+}
+.nav ul li:last-child button:hover {
+  transform: rotate(135deg);
+}
+
+.off {
+  transform: translateX(-100%);
+}
+
+.on {
+  transform: translate(0);
+  box-shadow: -3px -3px 10px 10px #c8c6c0;
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  4% {
+    transform: scale(1.1);
+  }
+  8% {
+    transform: scale(1);
+  }
+  12% {
+    transform: scale(1.03);
+  }
+  16% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.hero {
+  margin: 0 auto;
+  width: 100%;
+  height: 88vh;
+  margin-top: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(70deg, #fd6bb7, #d41578);
+}
+.hero h1 {
+  width: fit-content;
+  color: #faf0dc;
+  font-size: 5rem;
+  text-shadow: 4px 4px 10px;
+}
+.hero h1 span {
+  color: #faf0dc;
+  display: inline-block;
+  animation: beat 5s infinite 0s;
+  text-shadow: 4px 4px 9px;
+}
+
+footer {
+  background-color: #fd6bb7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+footer p {
+  color: #faf0dc;
+  font-size: 1.5rem;
+}
+footer div a {
+  margin: 0 5px;
+}
+footer div a img {
+  width: 30px;
+  transition: all 0.3s;
+}
+footer div a img:hover {
+  transform: scale(1.1);
+}
+
+.productMain {
+  margin-top: 17vh;
+  width: 100vw;
+  display: grid;
+  margin-bottom: 2rem;
+  grid-template-areas: "img img img h1 h1" "img img img div div" "img img img div div";
+}
+.productMain h1 {
+  grid-area: h1;
+  width: 80%;
+  color: #fd6bb7;
+  font-size: 4rem;
+  align-self: center;
+}
+.productMain .jerseyImg {
+  grid-area: img;
+  width: 450px;
+  align-self: center;
+  justify-self: center;
+  box-shadow: 0px 0px 20px #fd6bb7;
+}
+.productMain div {
+  justify-self: start;
+  grid-area: div;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.productMain div p {
+  font-size: 1.8rem;
+}
+.productMain div .payment {
+  display: flex;
+  flex-direction: row;
+}
+.productMain div .payment .paymentImg {
+  height: 2rem;
+}
+.productMain div form div {
+  display: inline-block;
+}
+.productMain div button {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.5rem;
+  border: none;
+  padding: 3px 5px;
+  background-color: #fd6bb7;
+  color: #faf0dc;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #fd6bb7;
+}
+
+#cart {
+  position: fixed;
+  height: 100vh;
+  background-color: #faf0dc;
+  width: 300px;
+  right: 0;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  transition: all 1s;
+}
+#cart ul {
+  width: 100%;
+}
+#cart ul li {
+  display: flex;
+}
+#cart ul li img {
+  width: 40px;
+}
+#cart ul li div {
+  display: flex;
+  flex-direction: column;
+}
+#cart .buyButton {
+  cursor: pointer;
+  background-color: #fd6bb7;
+  border: 0;
+  color: #faf0dc;
+  font-size: 2rem;
+  padding: 1% 1%;
+  box-shadow: 0px 0px 5px #fd6bb7;
+}
+#cart #buttonCloseCart {
+  cursor: pointer;
+  background-color: #faf0dc;
+  border: 0;
+  color: #fd6bb7;
+  font-size: 5rem;
+  transform: rotate(45deg);
+  transition: all 1s;
+}
+#cart #buttonCloseCart:hover {
+  transform: rotate(135deg);
+}
+
+.offCart {
+  transform: translateX(100%);
+}
+
+.onCart {
+  transform: translate(0);
+  box-shadow: 3px 3px 10px 10px #c8c6c0;
+}
+
+/*# sourceMappingURL=style.css.map */

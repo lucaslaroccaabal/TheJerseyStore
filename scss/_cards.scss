@@ -1,0 +1,56 @@
+.cards {
+  margin: $headerHeight 10vw;
+  h2 {
+    font-size: 3rem;
+    color: $pink-color;
+  }
+}
+
+.cardsContainer {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 5rem;
+  .card {
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: $base-color;
+    overflow: hidden;
+    a {
+      p {
+        font-size: 1.5rem;
+        overflow: hidden;
+        height: 2rem;
+      }
+      img {
+        width: 200px;
+        height: 210px;
+        object-fit: cover;
+        box-shadow: 0px 3px 5px gray;
+      }
+    }
+    div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        font-weight: 600;
+        font-size: 1.7rem;
+        overflow: hidden;
+        height: fit-content;
+        color: $pink-color;
+      }
+      button {
+        border: 0;
+        background-color: $pink-color;
+        box-shadow: 0px 0px 15px $pink-color;
+        width: fit-content;
+        padding: 2px 5px;
+      }
+    }
+  }
+}

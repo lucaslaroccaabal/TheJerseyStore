@@ -1,0 +1,57 @@
+.productMain {
+  margin-top: $headerHeight + 5vh;
+  width: 100vw;
+  display: grid;
+  margin-bottom: 2rem;
+  grid-template-areas:
+    "img img img h1 h1"
+    "img img img div div"
+    "img img img div div";
+  h1 {
+    grid-area: h1;
+    width: 80%;
+    color: $pink-color;
+    font-size: 4rem;
+    align-self: center;
+  }
+  .jerseyImg {
+    grid-area: img;
+    width: 450px;
+    align-self: center;
+    justify-self: center;
+    box-shadow: 0px 0px 20px $pink-color;
+  }
+  div {
+    justify-self: start;
+    grid-area: div;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    p {
+      font-size: 1.8rem;
+    }
+    .payment {
+      display: flex;
+      flex-direction: row;
+      .paymentImg {
+        height: 2rem;
+      }
+    }
+    form {
+      div {
+        display: inline-block;
+      }
+    }
+    button {
+      width: 100%;
+      height: 4rem;
+      font-size: 1.5rem;
+      border: none;
+      padding: 3px 5px;
+      background-color: $pink-color;
+      color: $base-color;
+      cursor: pointer;
+      box-shadow: 0px 0px 5px $pink-color;
+    }
+  }
+}

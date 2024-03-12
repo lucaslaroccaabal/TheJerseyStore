@@ -1,0 +1,63 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $base-color;
+  z-index: 3;
+
+  transition: all 1s;
+  img {
+    width: 90px;
+    height: 90px;
+  }
+  ul {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    li {
+      a {
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        transition: all 0.65s;
+        opacity: 0.8;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+    & li:nth-child(1) {
+      a {
+        color: $pink-color;
+      }
+    }
+    & li:last-child {
+      button {
+        cursor: pointer;
+        background-color: $base-color;
+        border: 0;
+        color: $pink-color;
+        font-size: 5rem;
+        transform: rotate(45deg);
+        transition: all 1s;
+        &:hover {
+          transform: rotate(135deg);
+        }
+      }
+    }
+  }
+}
+.off {
+  transform: translateX(-100%);
+}
+.on {
+  transform: translate(0);
+  box-shadow: -3px -3px 10px 10px #c8c6c0;
+}
