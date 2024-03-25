@@ -1,7 +1,7 @@
 const products = [
   {
     id: 1,
-    img: "media/jerseys/ajax1997.jpg",
+    img: "/media/jerseys/ajax1997.jpg",
     description: "Camiseta Ajax titular 1997",
     price: 70000,
     clubOrSeleccion: "club",
@@ -13,7 +13,7 @@ const products = [
   },
   {
     id: 2,
-    img: "media/jerseys/alemania2014.jpg",
+    img: "/media/jerseys/alemania2014.jpg",
     description: "Camiseta Alemania 2014",
     price: 55000,
     clubOrSeleccion: "seleccion",
@@ -25,7 +25,7 @@ const products = [
   },
   {
     id: 3,
-    img: "media/jerseys/argentina1978.jpg",
+    img: "/media/jerseys/argentina1978.jpg",
     description: "Camiseta Argentina 1978",
     price: 80000,
     clubOrSeleccion: "seleccion",
@@ -37,7 +37,7 @@ const products = [
   },
   {
     id: 4,
-    img: "media/jerseys/argentina1994.png",
+    img: "/media/jerseys/argentina1994.png",
     description: "Camiseta Argentina 1994",
     price: 75000,
     clubOrSeleccion: "seleccion",
@@ -49,7 +49,7 @@ const products = [
   },
   {
     id: 5,
-    img: "media/jerseys/argentinosjuniors1996.jpg",
+    img: "/media/jerseys/argentinosjuniors1996.jpg",
     description: "Camiseta Argentinos Juniors 1996",
     price: 72000,
     clubOrSeleccion: "club",
@@ -61,7 +61,7 @@ const products = [
   },
   {
     id: 6,
-    img: "media/jerseys/arsenal2002.png",
+    img: "/media/jerseys/arsenal2002.png",
     description: "Camiseta Arsenal 2002",
     price: 58000,
     clubOrSeleccion: "club",
@@ -73,7 +73,7 @@ const products = [
   },
   {
     id: 7,
-    img: "media/jerseys/barcelona1995.jpg",
+    img: "/media/jerseys/barcelona1995.jpg",
     description: "Camiseta Suplente Barcelona 1995",
     price: 85000,
     clubOrSeleccion: "club",
@@ -85,7 +85,7 @@ const products = [
   },
   {
     id: 8,
-    img: "media/jerseys/barcelona1996.jpeg",
+    img: "/media/jerseys/barcelona1996.jpeg",
     description: "Camiseta Barcelona 1996",
     price: 78000,
     clubOrSeleccion: "club",
@@ -97,7 +97,7 @@ const products = [
   },
   {
     id: 9,
-    img: "media/jerseys/barcelona1999.jpg",
+    img: "/media/jerseys/barcelona1999.jpg",
     description: "Camiseta Barcelona 1999",
     price: 70000,
     clubOrSeleccion: "club",
@@ -109,7 +109,7 @@ const products = [
   },
   {
     id: 10,
-    img: "media/jerseys/bayernmunich2021.jpg",
+    img: "/media/jerseys/bayernmunich2021.jpg",
     description: "Camiseta Bayern Munich 2021",
     price: 45000,
     clubOrSeleccion: "club",
@@ -121,7 +121,7 @@ const products = [
   },
   {
     id: 11,
-    img: "media/jerseys/boca1995.jpg",
+    img: "/media/jerseys/boca1995.jpg",
     description: "Camiseta Boca 1995",
     price: 60000,
     clubOrSeleccion: "club",
@@ -133,7 +133,7 @@ const products = [
   },
   {
     id: 12,
-    img: "media/jerseys/boca2001.webp",
+    img: "/media/jerseys/boca2001.webp",
     description: "Camiseta Boca 2001",
     price: 48000,
     clubOrSeleccion: "club",
@@ -145,7 +145,7 @@ const products = [
   },
   {
     id: 13,
-    img: "media/jerseys/borussia2024.jpg",
+    img: "/media/jerseys/borussia2024.jpg",
     description: "Camiseta Borussia Dortmund 2024",
     price: 39000,
     clubOrSeleccion: "club",
@@ -157,7 +157,7 @@ const products = [
   },
   {
     id: 14,
-    img: "media/jerseys/brasil2002.jpeg",
+    img: "/media/jerseys/brasil2002.jpeg",
     description: "Camiseta Brasil 2002",
     price: 68000,
     clubOrSeleccion: "seleccion",
@@ -169,7 +169,7 @@ const products = [
   },
   {
     id: 15,
-    img: "media/jerseys/brasil2018.jpg",
+    img: "/media/jerseys/brasil2018.jpg",
     description: "Camiseta Suplente Brasil 2018",
     price: 50000,
     clubOrSeleccion: "seleccion",
@@ -181,7 +181,7 @@ const products = [
   },
   {
     id: 16,
-    img: "media/jerseys/brasil2022.webp",
+    img: "/media/jerseys/brasil2022.webp",
     description: "Camiseta Brasil 2022",
     price: 48000,
     clubOrSeleccion: "seleccion",
@@ -193,7 +193,7 @@ const products = [
   },
   {
     id: 17,
-    img: "media/jerseys/croacia1998.webp",
+    img: "/media/jerseys/croacia1998.webp",
     description: "Camiseta Suplente Croacia 1998",
     price: 66000,
     clubOrSeleccion: "seleccion",
@@ -205,7 +205,7 @@ const products = [
   },
   {
     id: 18,
-    img: "media/jerseys/cruzeiro2023.jpg",
+    img: "/media/jerseys/cruzeiro2023.jpg",
     description: "Camiseta Cruzeiro 2023",
     price: 40000,
     clubOrSeleccion: "club",
@@ -217,7 +217,7 @@ const products = [
   },
   {
     id: 19,
-    img: "media/jerseys/docksud2023.webp",
+    img: "/media/jerseys/docksud2023.webp",
     description: "Camiseta Dock Sud 2023",
     price: 30000,
     clubOrSeleccion: "club",
@@ -229,7 +229,7 @@ const products = [
   },
   {
     id: 20,
-    img: "media/jerseys/españa2010.jpg",
+    img: "/media/jerseys/españa2010.jpg",
     description: "Camiseta España 2010",
     price: 61000,
     clubOrSeleccion: "seleccion",
@@ -241,7 +241,7 @@ const products = [
   },
   {
     id: 21,
-    img: "media/jerseys/fluminense2021.jpg",
+    img: "/media/jerseys/fluminense2021.jpg",
     description: "Camiseta Fluminense 2021",
     price: 32000,
     clubOrSeleccion: "club",
@@ -253,7 +253,7 @@ const products = [
   },
   {
     id: 22,
-    img: "media/jerseys/gremio2021.jpeg",
+    img: "/media/jerseys/gremio2021.jpeg",
     description: "Camiseta Gremio 2021",
     price: 44000,
     clubOrSeleccion: "club",
@@ -265,7 +265,7 @@ const products = [
   },
   {
     id: 23,
-    img: "media/jerseys/holanda1988.jpeg",
+    img: "/media/jerseys/holanda1988.jpeg",
     description: "Camiseta Holanda 1988",
     price: 80000,
     clubOrSeleccion: "seleccion",
@@ -277,7 +277,7 @@ const products = [
   },
   {
     id: 24,
-    img: "media/jerseys/independiente2019.jpg",
+    img: "/media/jerseys/independiente2019.jpg",
     description: "Camiseta Independiente 2019",
     price: 52000,
     clubOrSeleccion: "club",
@@ -289,7 +289,7 @@ const products = [
   },
   {
     id: 25,
-    img: "media/jerseys/independiente1987.jpg",
+    img: "/media/jerseys/independiente1987.jpg",
     description: "Camiseta Independiente 1987",
     price: 79000,
     clubOrSeleccion: "club",
@@ -301,7 +301,7 @@ const products = [
   },
   {
     id: 26,
-    img: "media/jerseys/independiente1997.jpeg",
+    img: "/media/jerseys/independiente1997.jpeg",
     description: "Camiseta Independiente 1997",
     price: 72000,
     clubOrSeleccion: "club",
@@ -313,7 +313,7 @@ const products = [
   },
   {
     id: 27,
-    img: "media/jerseys/independiente2004.webp",
+    img: "/media/jerseys/independiente2004.webp",
     description: "Camiseta Independiente 2004",
     price: 61000,
     clubOrSeleccion: "club",
@@ -325,7 +325,7 @@ const products = [
   },
   {
     id: 28,
-    img: "media/jerseys/independiente2016.jpg",
+    img: "/media/jerseys/independiente2016.jpg",
     description: "Camiseta Independiente 2016",
     price: 59000,
     clubOrSeleccion: "club",
@@ -337,7 +337,7 @@ const products = [
   },
   {
     id: 29,
-    img: "media/jerseys/independiente2022.jpg",
+    img: "/media/jerseys/independiente2022.jpg",
     description: "Camiseta Independiente 2022",
     price: 52000,
     clubOrSeleccion: "club",
@@ -349,7 +349,7 @@ const products = [
   },
   {
     id: 30,
-    img: "media/jerseys/independiente2023.jpg",
+    img: "/media/jerseys/independiente2023.jpg",
     description: "Camiseta Independiente 2023",
     price: 49000,
     clubOrSeleccion: "club",
@@ -361,7 +361,7 @@ const products = [
   },
   {
     id: 31,
-    img: "media/jerseys/independiente2023s.jpg",
+    img: "/media/jerseys/independiente2023s.jpg",
     description: "Camiseta Independiente",
     price: 49000,
     clubOrSeleccion: "club",
@@ -373,7 +373,7 @@ const products = [
   },
   {
     id: 32,
-    img: "media/jerseys/juventus1952.jpg",
+    img: "/media/jerseys/juventus1952.jpg",
     description: "Camiseta Juventus 1952",
     price: 90000,
     clubOrSeleccion: "club",
@@ -385,7 +385,7 @@ const products = [
   },
   {
     id: 33,
-    img: "media/jerseys/manchesterunited2009.webp",
+    img: "/media/jerseys/manchesterunited2009.webp",
     description: "Camiseta Manchester United 2009",
     price: 64000,
     clubOrSeleccion: "club",
@@ -397,7 +397,7 @@ const products = [
   },
   {
     id: 34,
-    img: "media/jerseys/milan2006.webp",
+    img: "/media/jerseys/milan2006.webp",
     description: "Camiseta Milan 2006",
     price: 68000,
     clubOrSeleccion: "club",
@@ -409,7 +409,7 @@ const products = [
   },
   {
     id: 35,
-    img: "media/jerseys/milan2009.jpg",
+    img: "/media/jerseys/milan2009.jpg",
     description: "Camiseta Milan 2009",
     price: 62000,
     clubOrSeleccion: "club",
@@ -421,7 +421,7 @@ const products = [
   },
   {
     id: 36,
-    img: "media/jerseys/napoli1987.jpg",
+    img: "/media/jerseys/napoli1987.jpg",
     description: "Camiseta Napoli 1987",
     price: 77000,
     clubOrSeleccion: "club",
@@ -433,7 +433,7 @@ const products = [
   },
   {
     id: 37,
-    img: "media/jerseys/palmeiras2023.png",
+    img: "/media/jerseys/palmeiras2023.png",
     description: "Camiseta Suplente Palmeiras 2023",
     price: 43000,
     clubOrSeleccion: "club",
@@ -445,7 +445,7 @@ const products = [
   },
   {
     id: 38,
-    img: "media/jerseys/psg2023.webp",
+    img: "/media/jerseys/psg2023.webp",
     description: "Camiseta PSG 2023",
     price: 50000,
     clubOrSeleccion: "club",
@@ -457,7 +457,7 @@ const products = [
   },
   {
     id: 39,
-    img: "media/jerseys/river1999.png",
+    img: "/media/jerseys/river1999.png",
     description: "Camiseta River 1999",
     price: 52000,
     clubOrSeleccion: "club",
@@ -469,7 +469,7 @@ const products = [
   },
   {
     id: 40,
-    img: "media/jerseys/santos2021.jpeg",
+    img: "/media/jerseys/santos2021.jpeg",
     description: "Camiseta Santos 2021",
     price: 42000,
     clubOrSeleccion: "club",
@@ -481,7 +481,7 @@ const products = [
   },
   {
     id: 41,
-    img: "media/jerseys/velez2023.webp",
+    img: "/media/jerseys/velez2023.webp",
     description: "Camiseta Velez 2023",
     price: 43000,
     clubOrSeleccion: "club",
