@@ -15,7 +15,7 @@ function displayCart(cartProducts) {
   cartProducts.forEach((product) => {
     li = document.createElement("li");
     li.innerHTML = `       
-          <img src="${product.img}" alt="${product.description}">
+          <img src="./${product.img}" alt="${product.description}">
           <div>
               <p>${product.description}</p>
               <p>${product.price}</p>
