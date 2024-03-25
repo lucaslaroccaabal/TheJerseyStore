@@ -4,7 +4,7 @@ products.forEach((product) => {
   card.innerHTML = `            
   <div id="cardProduct${product.id}" class="card">
   <a href="html/product.html">
-  <img src="pancho" alt="${product.description}">
+  <img src="${product.img}" alt="${product.description}">
   <p>${product.description}</p>
   </a>
   <div>
