@@ -2,7 +2,7 @@ const selectedProduct = JSON.parse(localStorage.getItem("selectedProduct"));
 console.log(selectedProduct);
 main = document.querySelector(".productMain");
 main.innerHTML = `<h1>${selectedProduct.description}</h1>
-        <img class="jerseyImg" src="/../${selectedProduct.img}" alt="">
+        <img class="jerseyImg" src="..${selectedProduct.img}" alt="">
         <div>
             <p>$ ${selectedProduct.price}</p>
             <form>
