@@ -1,13 +1,5 @@
 const container = document.querySelector(".cardsContainer");
-if (container.parentElement.id === "indexCards") {
-  cardsInIndex = true;
-} else {
-  cardsInIndex = false;
-}
 products.forEach((product) => {
-  if (cardsInIndex) {
-    product.img.replace("../", "");
-  }
   const card = document.createElement("div");
   card.innerHTML = `            
   <div id="cardProduct${product.id}" class="card">
