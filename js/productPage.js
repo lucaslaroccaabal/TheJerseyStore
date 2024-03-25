@@ -28,5 +28,4 @@ main.innerHTML = `<h1>${selectedProduct.description}</h1>
                     alt="Visa">
             </div>
 
-            <button id="addCart${selectedProduct.id}">Agregar Al Carrito</button>
         </div>`;

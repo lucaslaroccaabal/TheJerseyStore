@@ -4,6 +4,3 @@ function parse(variable) {
 function stringify(variable) {
   return JSON.stringify(variable);
 }
-function showAdeddProducts() {
-  localStorage.getItem("cart");
-}
